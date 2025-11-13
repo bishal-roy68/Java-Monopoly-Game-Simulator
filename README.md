@@ -1,6 +1,6 @@
 # Monopoly Game (Java)
 
-This project is a simplified Monopoly-style board game implemented in Java. I built it for my CIS-296 course, and I’m sharing it here as part of my portfolio. The game lets players move around the board, buy properties, pay rent, and save or load their progress.
+This project is a simplified, text-based Monopoly game developed in Java. I originally created it for my CIS-296 Java Programming course, and I’m sharing it here as part of my portfolio. The game implements the fundamental mechanics of Monopoly, including player turns, dice rolls, property ownership, rent calculations, and game state management, all structured using clean object-oriented design. It also includes the ability to save and load game progress, allowing players to continue their session at any time.
 
 ---
 
@@ -8,8 +8,8 @@ This project is a simplified Monopoly-style board game implemented in Java. I bu
 - Players take turns rolling dice
 - Each dice roll moves a player around the board
 - Landing on:
-1. Unowned property → player can buy it.
-2. Owned property → pay rent
+    - Unowned property → player can buy it.
+    - Owned property → pay rent
 - Supports saving and loading the game using a text file
 - Uses basic OOP design with clean classes for Player, Board, Property, etc.
 
