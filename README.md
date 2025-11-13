@@ -1,27 +1,37 @@
-# Basic Monopoly Game (Java)
+# Monopoly Game (Java)
 
-- This is my second project from my CIS 296-Java class, where I created a simple version of Monopoly Game.  
-- In this game: players can roll dice, move around the board, buy properties, pay rent, pass GO, and go to jail.  
-- The game also has save and load features using a text file as well.
+This project is a simplified Monopoly-style board game implemented in Java. I built it for my CIS-296 course, and I’m sharing it here as part of my portfolio. The game lets players move around the board, buy properties, pay rent, and save or load their progress.
+
+---
+
+### How the Game Works: 
+- Players take turns rolling dice
+- Each dice roll moves a player around the board
+- Landing on:
+1. Unowned property → player can buy it.
+2. Owned property → pay rent
+- Supports saving and loading the game using a text file
+- Uses basic OOP design with clean classes for Player, Board, Property, etc.
+
+### Features: 
+- Player movement and turn logic
+- Property buying and rent calculation
+- Saving and loading game state
+- Simple command-line game loop
+- Object-oriented structure
+
+### How to Run:
+- Open a terminal inside the src/ folder
+- Compile all Java files: "javac *.java"
+- Run the main program: "java Main"
+
+### Notes: 
+
+This project helped me practice Java fundamentals such as classes, file handling, loops, and basic game logic. Overall, I am confident that my project demonstrates my ability to work with Java classes, loops, conditions, and file handling to build a functional program. I think generally it was a good challenge, and I learned a lot while completing it. 
+
 
 ---
 
 ## Program Output Screenshot:
 ![Game Screenshot](screenshot.png)
 *(This is the screenshot of my program's running output from my monopoly game!)*
-
----
-
-## Self-Assessment:
-- **I was able to complete the project with all the required parts mentioned from my professor:**
----
-- **Classes for gameplay**: Including: Player, Property, Board.
-- **Game play itself**: Players moving around the board such as: buying property, paying rent, passing GO, going to jail, and handling bankrupt players.
-- **Game save and load**: Game state is written to and read from a text file.
-
-
-
----
-
-## My Personal Feedback:
-- Overall, I am confident that my project demonstrates my ability to work with Java classes, loops, conditions, and file handling to build a functional program. I think generally it was a good challenge, and I learned a lot while completing it. However, there were a few things that I had to look up online to understand the concept. But at the end, I felt like everything made sense to me after watching some tutorial videos on YouTube about the information I gathered from online sources.
